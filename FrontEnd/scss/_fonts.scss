@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Montserrat 400";
+    src: local(),
+    url("./../fonts/Montserrat/static/Montserrat-Regular.ttf") format(woff);
+}
+@font-face {
+    font-family: "Montserrat 500";
+    src: local(),
+    url("./../fonts/Montserrat/static/Montserrat-Medium.ttf") format(woff);
+}
+@font-face {
+    font-family: "Montserrat 600";
+    src: local(),
+    url("./../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format(woff);
+}
+@font-face {
+    font-family: "Open Sans 600";
+    src: local(),
+    url("./../fonts/Open_Sans/static/OpenSans-SemiBold.ttf") format(woff);
+}
+@font-face {
+    font-family: "Open Sans 500";
+    src: local(),
+    url("./../fonts/Open_Sans/static/OpenSans-Medium.ttf") format(woff);
+}
+@font-face {
+    font-family: "Open Sans 400";
+    src: local(),
+    url("./../fonts/Open_Sans/static/OpenSans-Regular.ttf") format(woff);
+}

@@ -1,0 +1,13 @@
+{
+    "AllFlat" : [
+        {
+            "id" : 1,
+            "FlatImage" : "https://d6644ef6a12fcfb82f3f-5d6761b1e7eae8e264ad220502fbb6f0.ssl.cf5.rackcdn.com/a1c0b876-61e6-4ec3-8c05-ca96ca60e2d1/images/pickaflatphoto2.jpg",
+            "FlatTitle" : "Однокомнатная квартира",
+            "FlatDesc" : "СДАМ 1- ую квартиру улучшенной планировки с лоджией, есть всё необходимое спальные места кровать 2...",
+            "FlatPrice" : "1 200 ₽ за сутки",
+            "FlatLocation" : "Березники, ул. Юбилейная 108",
+            "FlatButton" : "Подробнее"
+        }
+    ]
+}

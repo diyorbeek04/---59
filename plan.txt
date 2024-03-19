@@ -1,0 +1,6 @@
+Diyorbek => fayllar strukturasini tayyorlash, main page to`liq, barcha pagelarda header, modal, mobileda burger, about, contact, otziv klientov, napishite nam va footer qismlarni qilish, admin panelga kirishdan avval login qismga kiriladigan qismni qilish va proyekt oxirida barcha fayllarni yig`ish, 
+
+Shahrizoda => Admin panel, vsyo kvartiri pagedagi nashi kvartiri bo`limiga e`lon qo`shish, modaldagi valuelarni admin panelga chiqarish va napishiti nam qismidagi valuelarni admin panelga chiqarish.
+
+Ezoza => vsyo kvartiri pagedagi nashi kvartiri bo`limini qilish va podrobni buttonni bosganda har birini alohida pagega chiqarish.
+
