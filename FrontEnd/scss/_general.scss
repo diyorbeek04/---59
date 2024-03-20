@@ -39,3 +39,23 @@ ul {
 a {
     text-decoration: none;
 }
+button{
+    padding: 15px 40px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px 0px #FF7A0033;
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+button:hover{
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px #FF7A0033;
+    box-shadow: 0px 4px 20px 0px #0000001A inset;
+}
+button:active{
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px #FF7A0033;
+    box-shadow: 0px 7px 5px 0px #00000033 inset;
+}

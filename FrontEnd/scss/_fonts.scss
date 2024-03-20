@@ -14,6 +14,11 @@
     url("./../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format(woff);
 }
 @font-face {
+    font-family: "Montserrat 800";
+    src: local(),
+    url("./../fonts/Montserrat/static/Montserrat-ExtraBold.ttf") format(woff);
+}
+@font-face {
     font-family: "Open Sans 600";
     src: local(),
     url("./../fonts/Open_Sans/static/OpenSans-SemiBold.ttf") format(woff);
