@@ -43,7 +43,7 @@
                 <div class="box">
                     <div class="box__top">
                         <h2>Orgainzations</h2>
-                        <button class="admin__button"><i class='bx bx-user-circle'></i>Add Apartment</button>
+                        <button class="admin__button" id="add"><i class='bx bx-user-circle'></i>Add Apartment</button>
                     </div>
                     <div class="title">
                         <p>Sr No</p>
@@ -58,7 +58,22 @@
             </div>
         </div>
     </div>
+
+
+    <template id="templateMenu">
+<div class="cardFlat" id="cardFlat">
+    <span class="id" id="id"></span>
+<img id="admin__img" id="photo" src="" alt="">
+<h3 class="price" id="price"></h3>
+<div class="buttons">
+<button class="edit" id="edit">edit</button>
+<button class="delete" id="delete">delete</button>
+</div>
+<hr>
+</div>
+    </template>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="./admin.js"></script>
 </body>
 
 </html>
