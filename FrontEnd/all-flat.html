@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>аренда квартир 59</title>
+    <title>Аренда квартир 59</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1 class="hero__h1">1-к квартира, 31 м², 1/5 эт.</h1>
+        <!-- cards -->
+        <div id="cards"></div>
+    </div>
+    <template id="templateFlat">
+        <div id="card" class="card1">
+            <img class="card__item--images" id="card__item--images">
+            <div class="card__item" id="card__item">
+                <h2 id="card__item--h2" class="card__item--h2"></h2>
+                <p id="card__item--p" class="card__item--p"></p>
+                <small id="card__item--small" class="card__item--small"></small>
+                <div class="card__item--bottom" >
+                    <img class="card__item--images" id="card__item--img">
+                    <span id="card__item--span" class="card__item--span"></span>
+                </div>
+                <button id="card__item__button" class="">Забронировать</button>
+            </div>
+        </div>
+    </template>
+    <script src="./js/al__flat.js"></script>
 </body>
+
 </html>

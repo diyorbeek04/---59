@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/main.css">
-    <title>аренда квартир 59</title>
+    <title>Аренда квартир 59</title>
 </head>
+
 <body>
-    
+    <div class="container">
+        <h1 class="hero__h1" id="hero">Наши квартиры</h1>
+        <!-- cards -->    <div id="cards"></div>
+
+        
+<!-- templateFlat start -->
+    <template id="templateFlat">
+        <div id="card1" class="card">
+            <img class="card__item--images" id="card__item--images">
+            <div class="card__item" id="card__item">
+                <h2 id="card__item--h2"></h2>
+                <p id="card__item--p"></p>
+                <small id="card__item--small"></small>
+                <div class="card__item--bottom">
+                    <img class="card__item--images" id="card__item--img">
+                    <span id="card__item--span"></span>
+                </div>
+                <button id="card__item__button"></button>
+            </div>
+        </div>
+    </template>
+    <!--templateFlat end  -->
+<script src="./js/card.js"></script>
 </body>
+
 </html>

@@ -1,3 +1,203 @@
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.container .hero__h1 {
+  margin-top: 70px;
+  font-size: 32px;
+  color: rgb(73, 131, 255);
+  font-family: "Montserrat 600";
+}
+
+#cards {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card1 {
+  margin-bottom: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.card1 .card__item--images {
+  border-radius: 10px;
+  height: 300px;
+}
+.card1 #card__item {
+  width: 60%;
+}
+.card1 #card__item #card__item--h2 {
+  color: rgb(25, 25, 25);
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-family: "Montserrat 500";
+}
+.card1 #card__item #card__item--p {
+  font-weight: 500;
+  color: rgb(36, 35, 35);
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: "Montserrat 400";
+}
+.card1 #card__item #card__item--small {
+  color: rgb(101, 119, 224);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat 500";
+}
+.card1 #card__item #card__item--span {
+  display: block;
+  margin-top: 15px;
+  font-family: "Montserrat 400";
+}
+.card1 #card__item .card__item--bottom {
+  display: flex;
+  align-items: center;
+}
+.card1 #card__item #card__item--img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+.card1 #card__item #card__item__button {
+  width: 200px;
+  height: 45px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+}
+
+@media only screen and (max-width: 970px) {
+  #card {
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #card #card__item--images {
+    width: 100%;
+    border-radius: 10px;
+    height: 380px;
+  }
+  #card #card__item {
+    width: 100%;
+  }
+}
+.container {
+  max-width: 1160px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.container .hero__h1 {
+  margin-top: 70px;
+  font-size: 32px;
+  color: rgb(73, 131, 255);
+  font-family: "Montserrat 600";
+}
+
+#cards {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#card1 {
+  width: 30%;
+  margin-bottom: 70px;
+}
+#card1 .card__item--images {
+  width: 100%;
+  border-radius: 10px;
+  height: 300px;
+}
+#card1 #card__item--h2 {
+  color: rgb(25, 25, 25);
+  font-size: 22px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-family: "Montserrat 500";
+}
+#card1 #card__item--p {
+  font-weight: 500;
+  color: rgb(36, 35, 35);
+  font-size: 20px;
+  margin-bottom: 25px;
+  font-family: "Montserrat 400";
+}
+#card1 #card__item--small {
+  color: rgb(101, 119, 224);
+  font-size: 20px;
+  font-weight: 600;
+  font-family: "Montserrat 500";
+}
+#card1 #card__item--span {
+  display: block;
+  margin-top: 15px;
+  font-family: "Montserrat 400";
+}
+#card1 .card__item--bottom {
+  display: flex;
+  align-items: center;
+}
+#card1 #card__item--img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+#card1 #card__item__button {
+  width: 190px;
+  height: 45px;
+  margin-top: 20px;
+  color: white;
+  background-color: #FF7A00;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-family: "Montserrat 400";
+}
+
+@media only screen and (max-width: 1345px) {
+  #card1 {
+    width: 40%;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+@media only screen and (max-width: 970px) {
+  #card1 {
+    width: 90%;
+    margin-bottom: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  #card1 .card__item--images {
+    width: 100%;
+    border-radius: 10px;
+    height: 480px;
+  }
+}
 @font-face {
   font-family: "Montserrat 400";
   src: local(), url("./../fonts/Montserrat/static/Montserrat-Regular.ttf") format(woff);
