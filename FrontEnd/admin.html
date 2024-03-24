@@ -33,7 +33,9 @@
         </div>
         <div class="right">
             <div class="header">
-                <i class='bx bx-menu'></i>
+                <div class="header__fixed">
+                    <i class='bx bx-menu'></i>
+                </div>
             </div>
             <div class="card">
                 <div class="top">
@@ -43,16 +45,16 @@
                 <div class="box">
                     <div class="box__top">
                         <h2>Orgainzations</h2>
-                        <button class="admin__button" id="add"><i class='bx bx-user-circle'></i>Add Apartment</button>
+                        <button class="admin__button" id="add"><i class='bx bx-user-circle'></i>Add Flat</button>
                     </div>
                     <div class="title">
                         <p>Sr No</p>
-                        <p>Photo</p>
+                        <p>Title</p>
                         <p>Price</p>
                         <p>Action</p>
                     </div>
-                    <div class="menu">
-                         
+                    <div id="menu" class="menu">
+
                     </div>
                 </div>
             </div>
@@ -61,17 +63,53 @@
 
 
     <template id="templateMenu">
-<div class="cardFlat" id="cardFlat">
-    <span class="id" id="id"></span>
-<img id="admin__img" id="photo" src="" alt="">
-<h3 class="price" id="price"></h3>
-<div class="buttons">
-<button class="edit" id="edit">edit</button>
-<button class="delete" id="delete">delete</button>
-</div>
-<hr>
-</div>
+        <hr>
+        <div class="cardFlat" id="cardFlat">
+            <span class="id" id="id"></span>
+            <p class="name" id="title"></p>
+            <h3 class="price" id="price"></h3>
+            <div class="buttons">
+                <button class="edit" id="edit"><i class='bx bx-edit-alt'></i>edit</button>
+                <button class="delete" id="delete"><i class='bx bxs-x-circle'></i>delete</button>
+            </div>
+
+        </div>
     </template>
+
+    <div class="no__overlay" id="overlay">
+    </div>
+    <div class="no__ModalAdd" id="modalAdd">
+        <div class="modal__top">
+            <p class="modalType" id="modalType">Add Flat</p>
+            <span class="noModal" id="noModal">&times</span>
+        </div>
+        <form>
+            <input type="text" placeholder="Photo link" id="PhotoAdd" required>
+            <input type="text" placeholder="Flat title" id="TitleAdd" required>
+            <input type="text" placeholder="Flat Description" id="DescAdd" required>
+            <input type="text" placeholder="Flat Price" id="PriceAdd" required>
+            <input type="text" placeholder="Flat Location image" id="LocationImageAdd" required>
+            <input type="text" placeholder="Location" id="LocationAdd" required>
+            <button id="ButtonAdd"><i class='bx bx-user-circle'></i>Add Flat</button>
+        </form>
+
+    </div>
+    <div class="no__ModalEdit" id="modalEdit">
+        <div class="modal__top">
+            <p class="modalType" id="modalType">Edit Flat</p>
+            <span class="noModal" id="noModal">&times</span>
+        </div>
+        <form>
+            <input type="text" placeholder="Photo link" id="PhotoEdit" required>
+            <input type="text" placeholder="Flat title" id="TitleEdit" required>
+            <input type="text" placeholder="Flat Description" id="DescEdit" required>
+            <input type="text" placeholder="Flat Price" id="PriceEdit" required>
+            <input type="text" placeholder="Flat Location image" id="LocationImageEdit" required>
+            <input type="text" placeholder="Location" id="LocationEdit" required>
+            <button id="ButtonEdit"><i class='bx bx-edit-alt'></i>Edit Flat</button>
+        </form>
+
+    </div>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="./admin.js"></script>
 </body>

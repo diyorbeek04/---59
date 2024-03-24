@@ -1,74 +1,92 @@
 {
-    "AllFlat" : [
-        {
-            "id" : 1,
-            "FlatImage" : "https://frankfurt.apollo.olxcdn.com/v1/files/mnte78d8bao7-UZ/image;s=1280x960",
-            "FlatTitle" : "Однокомнатная квартира",
-            "FlatDesc" : "СДАМ 1- ую квартиру улучшенной планировки с лоджией, есть всё необходимое спальные места кровать 2...",
-            "FlatPrice" : "1 200 ₽ за сутки",
-            "FlatLocationImage" : "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
-            "FlatLocation" : "Березники, ул. Юбилейная 108",
-            "FlatButton" : "Подробнее"
-        },
-        {
-            "id" : 2,
-            "FlatImage" : "https://domtut.uz/resources/uploads/post/dizajn-odnokomnotnoj-kvartiry.jpg",
-            "FlatTitle" : "Однокомнатная квартира",
-            "FlatDesc" : "СДАМ 1 КВАРТИРУ есть все необходимое для проживания холодильник, мик.печь,ст.машина выписываем...",
-            "FlatPrice" : "1 000 ₽ за сутки",
-            "FlatLocationImage" : "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
-            "FlatLocation" : "Березники, ул. Юбилейная 108",
-            "FlatButton" : "Подробнее"
-        },
-        {
-            "id" : 3,
-            "FlatImage" : "https://my-dom.design/wp-content/uploads/2023/06/g4.jpg",
-            "FlatTitle" : "Однокомнатная квартира",
-            "FlatDesc" : "Сдам 1ую квартиру ул. пл. с балконом есть всё необходимое для проживания Выписываем документы строгой...",
-            "FlatPrice" : "1 000 ₽ за сутки",
-            "FlatLocationImage" : "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
-            "FlatLocation" : "Березники, ул. Юбилейная 108",
-            "FlatButton" : "Подробнее"
-        },
-        {
-            "id" : 4,
-            "FlatImage" : "https://uyutcity.ru/uploads/redactor/18e2bcc0-80c5-4188-9600-a02e741545fc/studiya.jpg",
-            "FlatTitle" : "Однокомнатная квартира",
-            "FlatDesc" : "Сдам 1- квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить...",
-            "FlatPrice" : "1 200 ₽ за сутки",
-            "FlatLocationImage" : "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
-            "FlatLocation" : "Березники, ул. Юбилейная 108",
-            "FlatButton" : "Подробнее"
-        },
-        {
-            "id" : 5,
-            "FlatImage" : "https://2realtor.ru/wp-content/uploads/2018/04/1prprtprt.jpg",
-            "FlatTitle" : "Однокомнатная квартира",
-            "FlatDesc" : "СДАМ 2 КОМНАТНУЮ КВАРТИРУ есть балкон всё необходимое для комфортного проживания, холодильник, мик.печь...",
-            "FlatPrice" : "1 500 ₽ за сутки",
-            "FlatLocationImage" : "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
-            "FlatLocation" : "Березники, ул. Юбилейная 108",
-            "FlatButton" : "Подробнее"
-        },
-        {
-            "id" : 6,
-            "FlatImage" : "https://s.domovita.by/images/8e/6e86a23001b31135a25da1fb8c34ce80.jpg",
-            "FlatTitle" : "Однокомнатная квартира",
-            "FlatDesc" : "СДАМ 3 КОМНАТНУЮ КВАРТИРУ гостям города , бригаде , есть всё необходимое для проживания до 7 ми спальных мест...",
-            "FlatPrice" : "1 800 ₽ за сутки",
-            "FlatLocationImage" : "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
-            "FlatLocation" : "Березники, ул. Юбилейная 108",
-            "FlatButton" : "Подробнее"
-        },
-        {
-            "id" : 7,
-            "FlatImage" : "https://img.dmclk.ru/c960x640q80/vitrina/35/8d/358da5d37eb86ea2941fd94c00f8b97e79265dbc.jpg",
-            "FlatTitle" : "Однокомнатная квартира",
-            "FlatDesc" : "СДАМ. 3 КОМНАТНУЮ КВАРТИРУ, для гостей города. в квартире имеется все необходимое для проживания на сутки...",
-            "FlatPrice" : "1 800 ₽ за сутки",
-            "FlatLocationImage" : "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
-            "FlatLocation" : "Березники, ул. Юбилейная 108",
-            "FlatButton" : "Подробнее"
-        }
-    ]
+  "AllFlat": [
+    {
+      "id": 1,
+      "FlatImage": "https://frankfurt.apollo.olxcdn.com/v1/files/mnte78d8bao7-UZ/image;s=1280x960",
+      "FlatTitle": "Однокомнатная квартира",
+      "FlatDesc": "СДАМ 1- ую квартиру улучшенной планировки с лоджией, есть всё необходимое спальные места кровать 2...",
+      "FlatPrice": "1 200 ₽ за сутки",
+      "FlatLocationImage": "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
+      "FlatLocation": "Березники, ул. Юбилейная 108",
+      "FlatButton": "Подробнее"
+    },
+    {
+      "id": 2,
+      "FlatImage": "https://domtut.uz/resources/uploads/post/dizajn-odnokomnotnoj-kvartiry.jpg",
+      "FlatTitle": "Однокомнатная квартира",
+      "FlatDesc": "СДАМ 1 КВАРТИРУ есть все необходимое для проживания холодильник, мик.печь,ст.машина выписываем...",
+      "FlatPrice": "1 000 ₽ за сутки",
+      "FlatLocationImage": "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
+      "FlatLocation": "Березники, ул. Юбилейная 108",
+      "FlatButton": "Подробнее"
+    },
+    {
+      "id": 3,
+      "FlatImage": "https://my-dom.design/wp-content/uploads/2023/06/g4.jpg",
+      "FlatTitle": "Однокомнатная квартира",
+      "FlatDesc": "Сдам 1ую квартиру ул. пл. с балконом есть всё необходимое для проживания Выписываем документы строгой...",
+      "FlatPrice": "1 000 ₽ за сутки",
+      "FlatLocationImage": "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
+      "FlatLocation": "Березники, ул. Юбилейная 108",
+      "FlatButton": "Подробнее"
+    },
+    {
+      "id": 4,
+      "FlatImage": "https://uyutcity.ru/uploads/redactor/18e2bcc0-80c5-4188-9600-a02e741545fc/studiya.jpg",
+      "FlatTitle": "Однокомнатная квартира",
+      "FlatDesc": "Сдам 1- квартиру с балконом есть всё необходимое для проживания выписываю ДОКУМЕНТЫ ЧЕК ОНЛАЙН 25+звонить...",
+      "FlatPrice": "1 200 ₽ за сутки",
+      "FlatLocationImage": "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
+      "FlatLocation": "Березники, ул. Юбилейная 108",
+      "FlatButton": "Подробнее"
+    },
+    {
+      "id": 5,
+      "FlatImage": "https://2realtor.ru/wp-content/uploads/2018/04/1prprtprt.jpg",
+      "FlatTitle": "Однокомнатная квартира",
+      "FlatDesc": "СДАМ 2 КОМНАТНУЮ КВАРТИРУ есть балкон всё необходимое для комфортного проживания, холодильник, мик.печь...",
+      "FlatPrice": "1 500 ₽ за сутки",
+      "FlatLocationImage": "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
+      "FlatLocation": "Березники, ул. Юбилейная 108",
+      "FlatButton": "Подробнее"
+    },
+    {
+      "id": 6,
+      "FlatImage": "https://s.domovita.by/images/8e/6e86a23001b31135a25da1fb8c34ce80.jpg",
+      "FlatTitle": "Однокомнатная квартира",
+      "FlatDesc": "СДАМ 3 КОМНАТНУЮ КВАРТИРУ гостям города , бригаде , есть всё необходимое для проживания до 7 ми спальных мест...",
+      "FlatPrice": "1 800 ₽ за сутки",
+      "FlatLocationImage": "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
+      "FlatLocation": "Березники, ул. Юбилейная 108",
+      "FlatButton": "Подробнее"
+    },
+    {
+      "id": 7,
+      "FlatImage": "https://img.dmclk.ru/c960x640q80/vitrina/35/8d/358da5d37eb86ea2941fd94c00f8b97e79265dbc.jpg",
+      "FlatTitle": "Однокомнатная квартира",
+      "FlatDesc": "СДАМ. 3 КОМНАТНУЮ КВАРТИРУ, для гостей города. в квартире имеется все необходимое для проживания на сутки...",
+      "FlatPrice": "1 800 ₽ за сутки",
+      "FlatLocationImage": "https://img.freepik.com/premium-vector/red-geolocation-icon_74669-526.jpg",
+      "FlatLocation": "Березники, ул. Юбилейная 108",
+      "FlatButton": "Подробнее"
+    },
+    {
+      "FlatImage": "",
+      "FlatTitle": "",
+      "FlatDesc": "",
+      "FlatPrice": "",
+      "FlatLocationImage": "",
+      "FlatLocation": "",
+      "id": 8
+    },
+    {
+      "FlatImage": "",
+      "FlatTitle": "",
+      "FlatDesc": "",
+      "FlatPrice": "",
+      "FlatLocationImage": "",
+      "FlatLocation": "",
+      "id": 9
+    }
+  ]
 }
