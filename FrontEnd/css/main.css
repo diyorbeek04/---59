@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .container {
   max-width: 1160px;
   width: 100%;
@@ -13,11 +14,27 @@
 
 #cards {
   margin-top: 50px;
+=======
+.nashi__kvartira {
+  width: 100%;
+}
+.nashi__kvartira .container h1 {
+  font-family: "Montserrat 800";
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.88px;
+  text-align: left;
+  color: #2B7AF1;
+}
+.nashi__kvartira .container .cards {
+  width: 100%;
+>>>>>>> 0631ebefaedcda00d124e1bb4daac1319a2a3eb6
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
+<<<<<<< HEAD
 
 .card1 {
   margin-bottom: 70px;
@@ -198,6 +215,578 @@
     height: 480px;
   }
 }
+=======
+.nashi__kvartira .container .cards .card {
+  padding-left: 50px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.nashi__kvartira .container .cards .card img {
+  display: none;
+}
+.nashi__kvartira .container .cards .card h3 {
+  font-family: "Montserrat 800";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29.26px;
+  text-align: left;
+  color: #111;
+  padding-top: 70px;
+}
+.nashi__kvartira .container .cards .card h4 {
+  font-family: "Montserrat 800";
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 29.26px;
+  text-align: left;
+  color: #111;
+  padding-top: 70px;
+  display: none;
+}
+.nashi__kvartira .container .cards .card h2 {
+  font-family: "Montserrat 400";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: left;
+  color: #111;
+  padding-top: 30px;
+}
+.nashi__kvartira .container .cards .card h2 span {
+  font-family: "Montserrat 800";
+}
+.nashi__kvartira .container .cards .card .card__bottom {
+  width: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 30px;
+}
+.nashi__kvartira .container .cards .card .card__bottom p {
+  font-family: "Montserrat 400";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21.94px;
+  text-align: left;
+  color: #111;
+}
+.nashi__kvartira .container .cards .card .card__bottom p i {
+  color: red;
+  padding-top: 10px;
+}
+.nashi__kvartira .container .cards .card__one {
+  width: 59%;
+  background-image: url(../../../assets/images/nashi-kvartira/Background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nashi__kvartira .container .cards .card__two {
+  width: 39%;
+  background-image: url(../../../assets/images/nashi-kvartira/Background\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nashi__kvartira .container .cards .card__three {
+  width: 39%;
+  background-image: url(../../../assets/images/nashi-kvartira/Background\ \(2\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nashi__kvartira .container .cards .card__four {
+  width: 59%;
+  background-image: url(../../../assets/images/nashi-kvartira/Background\ \(3\).png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.nashi__kvartira .container .enter__more--page {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nashi__kvartira .container .enter__more--page button {
+  padding: 15px;
+  width: 50%;
+}
+.nashi__kvartira .container .enter__more--page button a {
+  color: #fff;
+  font-family: "Montserrat 700";
+}
+@media only screen and (max-width: 1275px) {
+  .nashi__kvartira .container .cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .nashi__kvartira .container .cards .card {
+    width: 23%;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.1019607843);
+    background-color: #fff;
+    padding-left: 0;
+  }
+  .nashi__kvartira .container .cards .card img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .nashi__kvartira .container .cards .card h3 {
+    font-family: "Montserrat 600";
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #111;
+    padding-top: 20px;
+    display: none;
+  }
+  .nashi__kvartira .container .cards .card h4 {
+    font-family: "Montserrat 600";
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #111;
+    padding-top: 20px;
+    display: block;
+  }
+  .nashi__kvartira .container .cards .card h2 {
+    font-family: "Montserrat 400";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    color: #111;
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .nashi__kvartira .container .cards .card h2 span {
+    font-family: "Montserrat 800";
+  }
+  .nashi__kvartira .container .cards .card .card__bottom {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p {
+    display: none;
+    font-family: "Montserrat 400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: left;
+    color: #111;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p i {
+    color: red;
+    padding-top: 10px;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom button {
+    width: 90%;
+    padding: 10px 20px;
+  }
+  .nashi__kvartira .container .cards .card__one {
+    width: 23%;
+    background-color: #fff;
+    background-image: none;
+  }
+  .nashi__kvartira .container .cards .card__two {
+    width: 23%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__three {
+    width: 23%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__four {
+    width: 23%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .nashi__kvartira .container h1 {
+    font-family: "Montserrat 800";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 43.88px;
+    text-align: left;
+    color: #2B7AF1;
+  }
+  .nashi__kvartira .container .cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .nashi__kvartira .container .cards .card {
+    width: 23%;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.1019607843);
+    background-color: #fff;
+    padding-left: 0;
+  }
+  .nashi__kvartira .container .cards .card img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .nashi__kvartira .container .cards .card h3 {
+    font-family: "Montserrat 600";
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #111;
+    padding-top: 20px;
+    display: none;
+  }
+  .nashi__kvartira .container .cards .card h4 {
+    font-family: "Montserrat 600";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #111;
+    padding-top: 15px;
+    display: block;
+  }
+  .nashi__kvartira .container .cards .card h2 {
+    font-family: "Montserrat 400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    color: #111;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nashi__kvartira .container .cards .card h2 span {
+    font-family: "Montserrat 800";
+  }
+  .nashi__kvartira .container .cards .card .card__bottom {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p {
+    display: none;
+    font-family: "Montserrat 400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: left;
+    color: #111;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p i {
+    color: red;
+    padding-top: 10px;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom button {
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .nashi__kvartira .container .cards .card__one {
+    width: 30%;
+    background-color: #fff;
+    background-image: none;
+  }
+  .nashi__kvartira .container .cards .card__two {
+    width: 30%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__three {
+    width: 30%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__four {
+    width: 23%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: none;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .nashi__kvartira .container h1 {
+    font-family: "Montserrat 800";
+    font-size: 30px;
+    font-weight: 800;
+    line-height: 43.88px;
+    text-align: left;
+    color: #2B7AF1;
+  }
+  .nashi__kvartira .container .cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .nashi__kvartira .container .cards .card {
+    width: 23%;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.1019607843);
+    background-color: #fff;
+    padding-left: 0;
+  }
+  .nashi__kvartira .container .cards .card img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .nashi__kvartira .container .cards .card h3 {
+    font-family: "Montserrat 600";
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #111;
+    padding-top: 20px;
+    display: none;
+  }
+  .nashi__kvartira .container .cards .card h4 {
+    font-family: "Montserrat 600";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #111;
+    padding-top: 15px;
+    display: block;
+  }
+  .nashi__kvartira .container .cards .card h2 {
+    font-family: "Montserrat 400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    color: #111;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nashi__kvartira .container .cards .card h2 span {
+    font-family: "Montserrat 800";
+  }
+  .nashi__kvartira .container .cards .card .card__bottom {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p {
+    display: none;
+    font-family: "Montserrat 400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: left;
+    color: #111;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p i {
+    color: red;
+    padding-top: 10px;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom button {
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .nashi__kvartira .container .cards .card__one {
+    width: 48%;
+    background-color: #fff;
+    background-image: none;
+  }
+  .nashi__kvartira .container .cards .card__two {
+    width: 48%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__three {
+    width: 48%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__four {
+    width: 48%;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .nashi__kvartira .container h1 {
+    font-family: "Montserrat 600";
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 43.88px;
+    text-align: left;
+    color: #2B7AF1;
+  }
+  .nashi__kvartira .container .cards {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
+  .nashi__kvartira .container .cards .card {
+    width: 23%;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0px 10px 20px 0px rgba(17, 17, 17, 0.1019607843);
+    background-color: #fff;
+    padding-left: 0;
+  }
+  .nashi__kvartira .container .cards .card img {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15px;
+  }
+  .nashi__kvartira .container .cards .card h3 {
+    font-family: "Montserrat 600";
+    font-size: 18px;
+    line-height: 24px;
+    text-align: left;
+    color: #111;
+    padding-top: 20px;
+    display: none;
+  }
+  .nashi__kvartira .container .cards .card h4 {
+    font-family: "Montserrat 600";
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #111;
+    padding-top: 15px;
+    display: block;
+  }
+  .nashi__kvartira .container .cards .card h2 {
+    font-family: "Montserrat 400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: center;
+    color: #111;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .nashi__kvartira .container .cards .card h2 span {
+    font-family: "Montserrat 800";
+  }
+  .nashi__kvartira .container .cards .card .card__bottom {
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 0 auto;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p {
+    display: none;
+    font-family: "Montserrat 400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.94px;
+    text-align: left;
+    color: #111;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom p i {
+    color: red;
+    padding-top: 10px;
+  }
+  .nashi__kvartira .container .cards .card .card__bottom button {
+    width: 90%;
+    padding: 10px 20px;
+    font-size: 14px;
+  }
+  .nashi__kvartira .container .cards .card__one {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    background-image: none;
+  }
+  .nashi__kvartira .container .cards .card__two {
+    width: 90%;
+    margin: 20px auto;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__three {
+    width: 90%;
+    margin: 20px auto;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  .nashi__kvartira .container .cards .card__four {
+    width: 90%;
+    margin: 20px auto;
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: block;
+  }
+  .nashi__kvartira .container .enter__more--page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .nashi__kvartira .container .enter__more--page button {
+    padding: 10px;
+    width: 100%;
+  }
+  .nashi__kvartira .container .enter__more--page button a {
+    font-size: 14px;
+    color: #fff;
+    font-family: "Montserrat 500";
+  }
+}
+
+>>>>>>> 0631ebefaedcda00d124e1bb4daac1319a2a3eb6
 @font-face {
   font-family: "Montserrat 400";
   src: local(), url("./../fonts/Montserrat/static/Montserrat-Regular.ttf") format(woff);
@@ -209,6 +798,10 @@
 @font-face {
   font-family: "Montserrat 600";
   src: local(), url("./../fonts/Montserrat/static/Montserrat-SemiBold.ttf") format(woff);
+}
+@font-face {
+  font-family: "Montserrat 700";
+  src: local(), url("./../fonts/Montserrat/static/Montserrat-Bold.ttf") format(woff);
 }
 @font-face {
   font-family: "Montserrat 800";
@@ -605,6 +1198,7 @@ template {
 header {
   width: 100%;
   position: relative;
+  margin-bottom: 100px;
 }
 header .container .header {
   width: 100%;
@@ -616,6 +1210,9 @@ header .container .header .nav {
   justify-content: space-between;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+header .container .header .nav .bx-menu-alt-left {
+  display: none;
 }
 header .container .header .nav .logo {
   width: 10%;
@@ -698,6 +1295,16 @@ header .container .header .background {
   right: 0;
   z-index: -1000;
 }
+header .container .header .background-menu {
+  width: 50%;
+  background-color: #2B7AF1;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1000;
+  border-bottom-left-radius: 15px;
+}
 header .container .header .hero {
   width: 100%;
   display: flex;
@@ -764,4 +1371,653 @@ header .container .header .header__bottom .cards .card p {
   font-weight: 400;
   line-height: 21.79px;
   text-align: center;
+}
+@media only screen and (max-width: 1297px) {
+  header .container .header {
+    width: 100%;
+  }
+  header .container .header .nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header .container .header .nav .bx-menu-alt-left {
+    display: none;
+  }
+  header .container .header .nav .logo {
+    width: 10%;
+  }
+  header .container .header .nav .logo img {
+    width: 100%;
+  }
+  header .container .header .nav .menu {
+    width: 30%;
+  }
+  header .container .header .nav .menu ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+  }
+  header .container .header .nav .menu ul li a {
+    color: #111;
+    font-size: 16px;
+    font-weight: 22px;
+    font-family: "Montserrat 600";
+  }
+  header .container .header .nav .menu ul li a:hover {
+    text-decoration: underline;
+    color: #000;
+  }
+  header .container .header .nav .contact__box {
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .container .header .nav .contact__box .box {
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 7px;
+  }
+  header .container .header .nav .contact__box .box i {
+    padding: 5px;
+    color: #2B7AF1;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  header .container .header .nav .contact__box .box p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-family: "Montserrat 400";
+  }
+  header .container .header .nav button {
+    padding: 12px 30px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  header .container .header .nav button:hover {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843) inset;
+  }
+  header .container .header .nav button:active {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.2) inset;
+  }
+  header .container .header .background {
+    width: 57%;
+    background-color: #2B7AF1;
+    height: 810px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+  }
+  header .container .header .background-menu {
+    width: 57%;
+    background-color: #2B7AF1;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+    border-bottom-left-radius: 15px;
+  }
+}
+@media only screen and (max-width: 1117px) {
+  header .container .header {
+    width: 100%;
+  }
+  header .container .header .nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header .container .header .nav .bx-menu-alt-left {
+    display: block;
+    font-size: 32px;
+  }
+  header .container .header .nav .logo {
+    width: 10%;
+  }
+  header .container .header .nav .logo img {
+    width: 100%;
+  }
+  header .container .header .nav .menu {
+    display: none;
+  }
+  header .container .header .nav .contact__box {
+    width: 55%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .container .header .nav .contact__box .box {
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 7px;
+  }
+  header .container .header .nav .contact__box .box i {
+    padding: 5px;
+    color: #2B7AF1;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  header .container .header .nav .contact__box .box p {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-family: "Montserrat 400";
+  }
+  header .container .header .nav button {
+    padding: 10px 25px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  header .container .header .nav button:hover {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843) inset;
+  }
+  header .container .header .nav button:active {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.2) inset;
+  }
+  header .container .header .background {
+    width: 70%;
+    background-color: #2B7AF1;
+    height: 810px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+  }
+  header .container .header .background-menu {
+    width: 70%;
+    background-color: #2B7AF1;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+    border-bottom-left-radius: 15px;
+  }
+  header .container .header .hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 170px;
+  }
+  header .container .header .hero .hero__text {
+    width: 28%;
+    margin-top: 130px;
+  }
+  header .container .header .hero .hero__text h2 {
+    font-family: "Montserrat 800";
+    font-size: 30px;
+    line-height: 40px;
+    color: #111;
+  }
+  header .container .header .hero .hero__text p {
+    font-family: "Open Sans 400";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  header .container .header .hero .hero__img {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 150px;
+  }
+  header .container .header .hero .hero__img img {
+    width: 100%;
+  }
+  header .container .header .header__bottom {
+    width: 100%;
+  }
+  header .container .header .header__bottom .cards {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+  }
+  header .container .header .header__bottom .cards .card {
+    width: 22%;
+    box-shadow: 0px 5px 20px 0px rgba(17, 17, 17, 0.3019607843);
+    background-color: #fff;
+    padding: 20px;
+    height: 220px;
+    border-radius: 10px;
+  }
+  header .container .header .header__bottom .cards .card img {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 30%;
+  }
+  header .container .header .header__bottom .cards .card p {
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    font-family: "Open Sans 400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 729px) {
+  header .container .header {
+    width: 100%;
+  }
+  header .container .header .nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header .container .header .nav .bx-menu-alt-left {
+    display: block;
+    font-size: 32px;
+  }
+  header .container .header .nav .logo {
+    width: 12%;
+  }
+  header .container .header .nav .logo img {
+    width: 100%;
+  }
+  header .container .header .nav .menu {
+    display: none;
+  }
+  header .container .header .nav .contact__box {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .container .header .nav .contact__box .box {
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 7px;
+  }
+  header .container .header .nav .contact__box .box i {
+    padding: 5px;
+    color: #2B7AF1;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  header .container .header .nav .contact__box .box p {
+    display: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-family: "Montserrat 400";
+  }
+  header .container .header .nav button {
+    padding: 10px 25px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  header .container .header .nav button:hover {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843) inset;
+  }
+  header .container .header .nav button:active {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.2) inset;
+  }
+  header .container .header .background {
+    width: 60%;
+    background-color: #2B7AF1;
+    height: 810px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+  }
+  header .container .header .background-menu {
+    width: 60%;
+    background-color: #2B7AF1;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+    border-bottom-left-radius: 15px;
+  }
+  header .container .header .hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 170px;
+    background-image: url(/assets/images/main-page/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  header .container .header .hero .hero__text {
+    width: 100%;
+    margin-top: 130px;
+  }
+  header .container .header .hero .hero__text h2 {
+    font-family: "Montserrat 800";
+    font-size: 30px;
+    line-height: 40px;
+    color: #111;
+    text-align: center;
+  }
+  header .container .header .hero .hero__text p {
+    font-family: "Open Sans 400";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  header .container .header .hero .hero__text button {
+    margin-left: 30%;
+    margin-bottom: 50px;
+  }
+  header .container .header .hero .hero__img {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    display: none;
+  }
+  header .container .header .hero .hero__img img {
+    width: 100%;
+  }
+  header .container .header .header__bottom {
+    width: 100%;
+  }
+  header .container .header .header__bottom .cards {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  header .container .header .header__bottom .cards .card {
+    width: 45%;
+    box-shadow: 0px 5px 20px 0px rgba(17, 17, 17, 0.3019607843);
+    background-color: #fff;
+    padding: 20px;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  header .container .header .header__bottom .cards .card img {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 30%;
+  }
+  header .container .header .header__bottom .cards .card p {
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Open Sans 400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 480px) {
+  header .container .header {
+    width: 100%;
+  }
+  header .container .header .header__bottom {
+    width: 100%;
+  }
+  header .container .header .header__bottom .cards {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -100px;
+  }
+  header .container .header .header__bottom .cards .card {
+    width: 80%;
+    box-shadow: 0px 5px 20px 0px rgba(17, 17, 17, 0.3019607843);
+    background-color: #fff;
+    padding: 20px;
+    height: 220px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  header .container .header .header__bottom .cards .card img {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 30%;
+  }
+  header .container .header .header__bottom .cards .card p {
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Open Sans 400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 394px) {
+  header .container .header {
+    width: 100%;
+  }
+  header .container .header .nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  header .container .header .nav .bx-menu-alt-left {
+    display: block;
+    font-size: 32px;
+  }
+  header .container .header .nav .logo {
+    width: 15%;
+  }
+  header .container .header .nav .logo img {
+    width: 100%;
+  }
+  header .container .header .nav .menu {
+    display: none;
+  }
+  header .container .header .nav .contact__box {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .container .header .nav .contact__box .box {
+    width: 47%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 7px;
+  }
+  header .container .header .nav .contact__box .box i {
+    padding: 5px;
+    color: #2B7AF1;
+    background-color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+  }
+  header .container .header .nav .contact__box .box p {
+    display: none;
+    font-size: 16px;
+    line-height: 22px;
+    color: #fff;
+    font-family: "Montserrat 400";
+  }
+  header .container .header .nav button {
+    display: none;
+    padding: 10px 25px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    color: #fff;
+    border-radius: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  header .container .header .nav button:hover {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.1019607843) inset;
+  }
+  header .container .header .nav button:active {
+    background: linear-gradient(89.77deg, #DD6A00 0.2%, #F99806 99.82%);
+    box-shadow: 0px 10px 20px 0px rgba(255, 122, 0, 0.2);
+    box-shadow: 0px 7px 5px 0px rgba(0, 0, 0, 0.2) inset;
+  }
+  header .container .header .background {
+    width: 30%;
+    background-color: #2B7AF1;
+    height: 810px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+  }
+  header .container .header .background-menu {
+    width: 30%;
+    background-color: #2B7AF1;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1000;
+    border-bottom-left-radius: 15px;
+  }
+  header .container .header .hero {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 170px;
+    background-image: url(/assets/images/main-page/hero.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  header .container .header .hero .hero__text {
+    width: 100%;
+    margin-top: 80px;
+  }
+  header .container .header .hero .hero__text h2 {
+    font-family: "Montserrat 800";
+    font-size: 25px;
+    line-height: 32px;
+    color: #111;
+    text-align: center;
+  }
+  header .container .header .hero .hero__text p {
+    font-family: "Open Sans 400";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 100px;
+  }
+  header .container .header .hero .hero__text button {
+    width: 100%;
+    margin-left: 0px;
+  }
+  header .container .header .hero .hero__img {
+    width: 70%;
+    position: absolute;
+    right: 0;
+    top: 150px;
+    display: none;
+  }
+  header .container .header .hero .hero__img img {
+    width: 100%;
+  }
+  header .container .header .header__bottom {
+    width: 100%;
+  }
+  header .container .header .header__bottom .cards {
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  header .container .header .header__bottom .cards .card {
+    width: 90%;
+    box-shadow: 0px 5px 20px 0px rgba(17, 17, 17, 0.3019607843);
+    background-color: #fff;
+    padding: 20px;
+    height: 220px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  header .container .header .header__bottom .cards .card img {
+    width: 40%;
+    margin: 0 auto;
+    margin-left: 30%;
+  }
+  header .container .header .header__bottom .cards .card p {
+    width: 98%;
+    margin: 0px auto;
+    text-align: center;
+    font-family: "Open Sans 400";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21.79px;
+    text-align: center;
+  }
 }/*# sourceMappingURL=main.css.map */
