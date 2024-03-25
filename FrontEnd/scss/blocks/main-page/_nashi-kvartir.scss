@@ -1,0 +1,597 @@
+.nashi__kvartira{
+    width: 100%;
+    .container{
+        h1{
+            font-family: "Montserrat 800";
+            font-size: 36px;
+            font-weight: 800;
+            line-height: 43.88px;
+            text-align: left;
+            color: #2B7AF1;
+        }
+        .cards{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .card{
+                padding-left: 50px;
+                border-radius: 10px;
+                margin-top: 30px;
+                img{
+                    display: none;
+                }
+                h3{
+                    font-family: "Montserrat 800";
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 29.26px;
+                    text-align: left;
+                    color: #111;
+                    padding-top: 70px;
+                }
+                h4{
+                    font-family: "Montserrat 800";
+                    font-size: 24px;
+                    font-weight: 800;
+                    line-height: 29.26px;
+                    text-align: left;
+                    color: #111;
+                    padding-top: 70px;
+                    display: none;
+                }
+                h2{
+                    font-family: "Montserrat 400";
+                    font-size: 18px;
+                    font-weight: 400;
+                    line-height: 21.94px;
+                    text-align: left;
+                    color: #111;
+                    padding-top: 30px;
+                    span{
+                        font-family: "Montserrat 800";
+                    }
+                }
+                .card__bottom{
+                    width: 95%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    padding-bottom: 30px;
+                    p{
+                        font-family: "Montserrat 400";
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 21.94px;
+                        text-align: left;
+                        color: #111;
+                        i{
+                            color: red;
+                            padding-top: 10px;
+                        }
+                    }
+                }
+                
+            }
+            .card__one{
+                width: 59%;
+                background-image: url(../../../assets/images/nashi-kvartira/Background.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .card__two{
+                width: 39%;
+                background-image: url(../../../assets/images/nashi-kvartira/Background\ \(1\).png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .card__three{
+                width: 39%;
+                background-image: url(../../../assets/images/nashi-kvartira/Background\ \(2\).png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+            .card__four{
+                width: 59%;
+                background-image: url(../../../assets/images/nashi-kvartira/Background\ \(3\).png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+            }
+        }
+        .enter__more--page{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            button{
+                padding: 15px;
+                width: 50%;
+                a{
+                    color: #fff;
+                    font-family: "Montserrat 700";
+                }
+            }
+        }
+        
+        @media only screen and (max-width: 1275px) {
+            .cards{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 50px;
+                .card{
+                    width: 23%;
+                    border-radius: 10px;
+                    margin-top: 30px;
+                    box-shadow: 0px 10px 20px 0px #1111111A;
+                    background-color: #fff;
+                    padding-left: 0;
+                    img{
+                        display: block;
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-top: 15px;
+                    }
+                    h3{
+                        font-family: "Montserrat 600";
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: left;
+                        color: #111;
+                        padding-top: 20px;
+                        display: none;
+                    }
+                    h4{
+                        font-family: "Montserrat 600";
+                        font-size: 20px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 20px;
+                        display: block;
+                    }
+                    h2{
+                        font-family: "Montserrat 400";
+                        font-size: 18px;
+                        font-weight: 400;
+                        line-height: 21.94px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 20px;
+                        padding-bottom: 15px;
+                        span{
+                            font-family: "Montserrat 800";
+                        }
+                    }
+                    .card__bottom{
+                        width: 95%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-bottom: 30px;
+                        margin: 0 auto;
+                        p{
+                            display: none;
+                            font-family: "Montserrat 400";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 21.94px;
+                            text-align: left;
+                            color: #111;
+                            i{
+                                color: red;
+                                padding-top: 10px;
+                            }
+                        }
+                        button{
+                            width: 90%;
+                            padding: 10px 20px;
+                            
+                        }
+                    }
+                    
+                }
+                .card__one{
+                    width: 23%;
+                    background-color: #fff;
+                    background-image: none;
+                }
+                .card__two{
+                    width: 23%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__three{
+                    width: 23%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__four{
+                    width: 23%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+        }
+        @media only screen and (max-width: 768px) {
+            h1{
+                font-family: "Montserrat 800";
+                font-size: 30px;
+                font-weight: 800;
+                line-height: 43.88px;
+                text-align: left;
+                color: #2B7AF1; 
+            }
+            .cards{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 50px;
+                .card{
+                    width: 23%;
+                    border-radius: 10px;
+                    margin-top: 30px;
+                    box-shadow: 0px 10px 20px 0px #1111111A;
+                    background-color: #fff;
+                    padding-left: 0;
+                    img{
+                        display: block;
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-top: 15px;
+                    }
+                    h3{
+                        font-family: "Montserrat 600";
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: left;
+                        color: #111;
+                        padding-top: 20px;
+                        display: none;
+                    }
+                    h4{
+                        font-family: "Montserrat 600";
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 15px;
+                        display: block;
+                    }
+                    h2{
+                        font-family: "Montserrat 400";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21.94px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        span{
+                            font-family: "Montserrat 800";
+                        }
+                    }
+                    .card__bottom{
+                        width: 95%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-bottom: 30px;
+                        margin: 0 auto;
+                        p{
+                            display: none;
+                            font-family: "Montserrat 400";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 21.94px;
+                            text-align: left;
+                            color: #111;
+                            i{
+                                color: red;
+                                padding-top: 10px;
+                            }
+                        }
+                        button{
+                            width: 90%;
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+                    }
+                    
+                }
+                .card__one{
+                    width: 30%;
+                    background-color: #fff;
+                    background-image: none;
+                }
+                .card__two{
+                    width: 30%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__three{
+                    width: 30%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__four{
+                    width: 23%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    display: none;
+                }
+            }
+        }
+        @media only screen and (max-width: 480px) {
+            h1{
+                font-family: "Montserrat 800";
+                font-size: 30px;
+                font-weight: 800;
+                line-height: 43.88px;
+                text-align: left;
+                color: #2B7AF1; 
+            }
+            .cards{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 50px;
+                .card{
+                    width: 23%;
+                    border-radius: 10px;
+                    margin-top: 30px;
+                    box-shadow: 0px 10px 20px 0px #1111111A;
+                    background-color: #fff;
+                    padding-left: 0;
+                    img{
+                        display: block;
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-top: 15px;
+                    }
+                    h3{
+                        font-family: "Montserrat 600";
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: left;
+                        color: #111;
+                        padding-top: 20px;
+                        display: none;
+                    }
+                    h4{
+                        font-family: "Montserrat 600";
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 15px;
+                        display: block;
+                    }
+                    h2{
+                        font-family: "Montserrat 400";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21.94px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        span{
+                            font-family: "Montserrat 800";
+                        }
+                    }
+                    .card__bottom{
+                        width: 95%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-bottom: 30px;
+                        margin: 0 auto;
+                        p{
+                            display: none;
+                            font-family: "Montserrat 400";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 21.94px;
+                            text-align: left;
+                            color: #111;
+                            i{
+                                color: red;
+                                padding-top: 10px;
+                            }
+                        }
+                        button{
+                            width: 90%;
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+                    }
+                    
+                }
+                .card__one{
+                    width: 48%;
+                    background-color: #fff;
+                    background-image: none;
+                }
+                .card__two{
+                    width: 48%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__three{
+                    width: 48%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__four{
+                    width: 48%;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    display: block;
+                }
+            }
+        }
+        @media only screen and (max-width: 375px) {
+            h1{
+                font-family: "Montserrat 600";
+                font-size: 24px;
+                font-weight: 800;
+                line-height: 43.88px;
+                text-align: left;
+                color: #2B7AF1; 
+            }
+            .cards{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding-bottom: 50px;
+                .card{
+                    width: 23%;
+                    border-radius: 10px;
+                    margin-top: 30px;
+                    box-shadow: 0px 10px 20px 0px #1111111A;
+                    background-color: #fff;
+                    padding-left: 0;
+                    img{
+                        display: block;
+                        width: 90%;
+                        margin: 0 auto;
+                        margin-top: 15px;
+                    }
+                    h3{
+                        font-family: "Montserrat 600";
+                        font-size: 18px;
+                        line-height: 24px;
+                        text-align: left;
+                        color: #111;
+                        padding-top: 20px;
+                        display: none;
+                    }
+                    h4{
+                        font-family: "Montserrat 600";
+                        font-size: 16px;
+                        line-height: 26px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 15px;
+                        display: block;
+                    }
+                    h2{
+                        font-family: "Montserrat 400";
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 21.94px;
+                        text-align: center;
+                        color: #111;
+                        padding-top: 15px;
+                        padding-bottom: 15px;
+                        span{
+                            font-family: "Montserrat 800";
+                        }
+                    }
+                    .card__bottom{
+                        width: 95%;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding-bottom: 30px;
+                        margin: 0 auto;
+                        p{
+                            display: none;
+                            font-family: "Montserrat 400";
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 21.94px;
+                            text-align: left;
+                            color: #111;
+                            i{
+                                color: red;
+                                padding-top: 10px;
+                            }
+                        }
+                        button{
+                            width: 90%;
+                            padding: 10px 20px;
+                            font-size: 14px;
+                        }
+                    }
+                    
+                }
+                .card__one{
+                    width: 90%;
+                    margin: 20px auto;
+                    background-color: #fff;
+                    background-image: none;
+                }
+                .card__two{
+                    width: 90%;
+                    margin: 20px auto;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__three{
+                    width: 90%;
+                    margin: 20px auto;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+                .card__four{
+                    width: 90%;
+                    margin: 20px auto;
+                    background-image: none;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                    display: block;
+                }
+            }
+            .enter__more--page{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                button{
+                    padding: 10px;
+                    width: 100%;
+                    a{
+                        font-size: 14px;
+                        color: #fff;
+                        font-family: "Montserrat 500";
+                    }
+                }
+            }
+        }
+    }
+    
+}
