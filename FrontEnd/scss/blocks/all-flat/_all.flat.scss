@@ -1,18 +1,103 @@
+.overlay {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: rgb(62, 62, 62);
+    opacity: 0.5;
+
+}
+.no__overlay {
+    display: none;
+}
+#modal--form{
+    display: none;
+}
+.modal {
+    position: fixed;
+    padding: 30px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+    z-index: 1001;
+    width: 400px;
+    height: 400px;
+    left: 0;
+    right: 0;
+    top: 200px;
+    bottom: 0;
+    .modal__top {
+        display: flex;
+        justify-content: end;
+    }
+    .modal--h3 {
+        color: #2B7AF1;
+        margin-top: 10px;
+        font-size: 32px;
+        font-family: "Montserrat 600";
+        text-align: center;
+    }
+
+    .modal--p {
+        color: #a3a3a3;
+        margin-top: 10px;
+        font-size: 14px;
+        font-family: "Montserrat 600";
+        text-align: center;
+    }
+
+    .modal--form {
+        margin-top: 40px;
+        text-align: center;
+
+        #name {
+            width: 90%;
+            height: 38px;
+            padding: 10px;
+            border-radius: 10px;
+            color: #a3a3a3;
+            font-size: 16px;
+            font-family: "Montserrat 400";
+            margin-bottom: 20px;
+        }
+
+        #number {
+            width: 90%;
+            height: 38px;
+            padding: 10px;
+            border-radius: 10px;
+            color: #a3a3a3;
+            font-size: 16px;
+            font-family: "Montserrat 400";
+            margin-bottom: 20px;
+        }
+        #modal__button {
+            width: 180px;
+            height: 43px;
+            color: #ffffff;
+            font-size: 14px;
+            font-family: "Montserrat 400";
+        }
+        
+    }
+}
+.no__activ--modal {
+    display: none;
+}
+
 .container {
     max-width: 1160px;
     width: 100%;
     margin: 0 auto;
     padding: 0 10px;
-
-
-
     .hero__h1 {
         margin-top: 70px;
         font-size: 32px;
         color: rgb(73, 131, 255);
         font-family: "Montserrat 600";
     }
-
 }
 
 #cards {

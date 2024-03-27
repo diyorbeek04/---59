@@ -1,4 +1,90 @@
-<<<<<<< HEAD
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(62, 62, 62);
+  opacity: 0.5;
+}
+
+.no__overlay {
+  display: none;
+}
+
+#modal--form {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  z-index: 1001;
+  width: 400px;
+  height: 400px;
+  left: 0;
+  right: 0;
+  top: 200px;
+  bottom: 0;
+}
+.modal .modal__top {
+  display: flex;
+  justify-content: end;
+}
+.modal .modal--h3 {
+  color: #2B7AF1;
+  margin-top: 10px;
+  font-size: 32px;
+  font-family: "Montserrat 600";
+  text-align: center;
+}
+.modal .modal--p {
+  color: #a3a3a3;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Montserrat 600";
+  text-align: center;
+}
+.modal .modal--form {
+  margin-top: 40px;
+  text-align: center;
+}
+.modal .modal--form #name {
+  width: 90%;
+  height: 38px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #a3a3a3;
+  font-size: 16px;
+  font-family: "Montserrat 400";
+  margin-bottom: 20px;
+}
+.modal .modal--form #number {
+  width: 90%;
+  height: 38px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #a3a3a3;
+  font-size: 16px;
+  font-family: "Montserrat 400";
+  margin-bottom: 20px;
+}
+.modal .modal--form #modal__button {
+  width: 180px;
+  height: 43px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat 400";
+}
+
+.no__activ--modal {
+  display: none;
+}
+
 .container {
   max-width: 1160px;
   width: 100%;
@@ -14,27 +100,11 @@
 
 #cards {
   margin-top: 50px;
-=======
-.nashi__kvartira {
-  width: 100%;
-}
-.nashi__kvartira .container h1 {
-  font-family: "Montserrat 800";
-  font-size: 36px;
-  font-weight: 800;
-  line-height: 43.88px;
-  text-align: left;
-  color: #2B7AF1;
-}
-.nashi__kvartira .container .cards {
-  width: 100%;
->>>>>>> 0631ebefaedcda00d124e1bb4daac1319a2a3eb6
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
 }
-<<<<<<< HEAD
 
 .card1 {
   margin-bottom: 70px;
@@ -113,6 +183,93 @@
     width: 100%;
   }
 }
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(62, 62, 62);
+  opacity: 0.5;
+}
+
+.no__overlay {
+  display: none;
+}
+
+#modal--form {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  z-index: 1001;
+  width: 400px;
+  height: 400px;
+  left: 0;
+  right: 0;
+  top: 200px;
+  bottom: 0;
+}
+.modal .modal__top {
+  display: flex;
+  justify-content: end;
+}
+.modal .modal--h3 {
+  color: #2B7AF1;
+  margin-top: 10px;
+  font-size: 32px;
+  font-family: "Montserrat 600";
+  text-align: center;
+}
+.modal .modal--p {
+  color: #a3a3a3;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Montserrat 600";
+  text-align: center;
+}
+.modal .modal--form {
+  margin-top: 40px;
+  text-align: center;
+}
+.modal .modal--form #name {
+  width: 90%;
+  height: 38px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #a3a3a3;
+  font-size: 16px;
+  font-family: "Montserrat 400";
+  margin-bottom: 20px;
+}
+.modal .modal--form #number {
+  width: 90%;
+  height: 38px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #a3a3a3;
+  font-size: 16px;
+  font-family: "Montserrat 400";
+  margin-bottom: 20px;
+}
+.modal .modal--form #modal__button {
+  width: 180px;
+  height: 43px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat 400";
+}
+
+.no__activ--modal {
+  display: none;
+}
+
 .container {
   max-width: 1160px;
   width: 100%;
@@ -215,7 +372,24 @@
     height: 480px;
   }
 }
-=======
+.nashi__kvartira {
+  width: 100%;
+}
+.nashi__kvartira .container h1 {
+  font-family: "Montserrat 800";
+  font-size: 36px;
+  font-weight: 800;
+  line-height: 43.88px;
+  text-align: left;
+  color: #2B7AF1;
+}
+.nashi__kvartira .container .cards {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 .nashi__kvartira .container .cards .card {
   padding-left: 50px;
   border-radius: 10px;
@@ -786,7 +960,6 @@
   }
 }
 
->>>>>>> 0631ebefaedcda00d124e1bb4daac1319a2a3eb6
 @font-face {
   font-family: "Montserrat 400";
   src: local(), url("./../fonts/Montserrat/static/Montserrat-Regular.ttf") format(woff);
@@ -1192,6 +1365,93 @@ template {
  * Add the correct display in IE 10.
  */
 [hidden] {
+  display: none;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: rgb(62, 62, 62);
+  opacity: 0.5;
+}
+
+.no__overlay {
+  display: none;
+}
+
+#modal--form {
+  display: none;
+}
+
+.modal {
+  position: fixed;
+  padding: 30px;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255);
+  z-index: 1001;
+  width: 400px;
+  height: 400px;
+  left: 0;
+  right: 0;
+  top: 200px;
+  bottom: 0;
+}
+.modal .modal__top {
+  display: flex;
+  justify-content: end;
+}
+.modal .modal--h3 {
+  color: #2B7AF1;
+  margin-top: 10px;
+  font-size: 32px;
+  font-family: "Montserrat 600";
+  text-align: center;
+}
+.modal .modal--p {
+  color: #a3a3a3;
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: "Montserrat 600";
+  text-align: center;
+}
+.modal .modal--form {
+  margin-top: 40px;
+  text-align: center;
+}
+.modal .modal--form #name {
+  width: 90%;
+  height: 38px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #a3a3a3;
+  font-size: 16px;
+  font-family: "Montserrat 400";
+  margin-bottom: 20px;
+}
+.modal .modal--form #number {
+  width: 90%;
+  height: 38px;
+  padding: 10px;
+  border-radius: 10px;
+  color: #a3a3a3;
+  font-size: 16px;
+  font-family: "Montserrat 400";
+  margin-bottom: 20px;
+}
+.modal .modal--form #modal__button {
+  width: 180px;
+  height: 43px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: "Montserrat 400";
+}
+
+.no__activ--modal {
   display: none;
 }
 

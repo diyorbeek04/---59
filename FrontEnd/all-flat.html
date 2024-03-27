@@ -5,38 +5,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/main.css">
-<<<<<<< HEAD
     <title>Аренда квартир 59</title>
-=======
     <title>всё квартиры</title>
->>>>>>> 0631ebefaedcda00d124e1bb4daac1319a2a3eb6
 </head>
 
 <body>
-<<<<<<< HEAD
-    <div class="container">
-        <a href=""></a>
-        <h1 class="hero__h1">1-к квартира, 31 м², 1/5 эт.</h1>
-        <!-- cards -->
-        <div id="cards"></div>
-    </div>
-    <template id="templateFlat">
-        <div id="card" class="card1">
-            <img class="card__item--images" id="card__item--images">
-            <div class="card__item" id="card__item">
-                <h2 id="card__item--h2" class="card__item--h2"></h2>
-                <p id="card__item--p" class="card__item--p"></p>
-                <small id="card__item--small" class="card__item--small"></small>
-                <div class="card__item--bottom" >
-                    <img class="card__item--images" id="card__item--img">
-                    <span id="card__item--span" class="card__item--span"></span>
-                </div>
-                <button id="card__item__button" class="">Забронировать</button>
-            </div>
+    <modal>
+        <div id="father">
         </div>
-    </template>
-    <script src="./js/al__flat.js"></script>
-=======
+        <div class="no__activ--modal" id="modal">
+            <div class="modal__top">
+                <span id="exitButton">&times;</span>
+            </div>
+            <h3 class="modal--h3">Заказать звонок</h3>
+            <p class="modal--p">Оставьте заявку и мы свяжемся с Вами в ближайшее время!</p>
+            <form class="modal--form" id="modal__form">
+                <input type="text" placeholder="Имя" id="name">
+                <input type="number" placeholder="Телефон" id="number">
+                <button id="modal__button" type="submit">Отправить</button>
+            </form>
+        </div>
+        <div class="no__overlay" id="overlay">
+
+        </div>
+    </modal>
     <header>
         <div class="container">
             <div class="header">
@@ -63,13 +55,34 @@
                             <p>+7 (919) 714-25-00</p>
                         </div>
                     </div>
-                    <button>Заказать звонок</button>
+                    <button id="zakazButton">Заказать звонок</button>
                 </div>
                 <div class="background-menu"></div>
             </div>
         </div>
     </header>
->>>>>>> 0631ebefaedcda00d124e1bb4daac1319a2a3eb6
+    <div class="container">
+        <a href=""></a>
+        <h1 class="hero__h1">1-к квартира, 31 м², 1/5 эт.</h1>
+        <!-- cards -->
+        <div id="cards"></div>
+    </div>
+    <template id="templateFlat">
+        <div id="card" class="card1">
+            <img class="card__item--images" id="card__item--images">
+            <div class="card__item" id="card__item">
+                <h2 id="card__item--h2" class="card__item--h2"></h2>
+                <p id="card__item--p" class="card__item--p"></p>
+                <small id="card__item--small" class="card__item--small"></small>
+                <div class="card__item--bottom" >
+                    <img class="card__item--images" id="card__item--img">
+                    <span id="card__item--span" class="card__item--span"></span>
+                </div>
+                <button id="card__item__button" class="">Забронировать</button>
+            </div>
+        </div>
+    </template>
+    <script src="./js/al__flat.js"></script>
 </body>
 
 </html>

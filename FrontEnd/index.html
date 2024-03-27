@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +8,32 @@
     <link rel="stylesheet" href="./css/main.css">
     <title>аренда квартир 59</title>
 </head>
+
 <body>
+    <modal>
+        <div id="father">
+        </div>
+        <div class="no__activ--modal" id="modal">
+            <div class="modal__top">
+                <span id="exitButton">&times;</span>
+            </div>
+            <h3 class="modal--h3">Заказать звонок</h3>
+            <p class="modal--p">Оставьте заявку и мы свяжемся с Вами в ближайшее время!</p>
+            <form class="modal--form" id="modal__form">
+                <input type="text" placeholder="Имя" id="name">
+                <input type="number" placeholder="Телефон" id="number">
+                <button id="modal__button" type="submit">Отправить</button>
+            </form>
+        </div>
+        <div class="no__overlay" id="overlay">
+
+        </div>
+    </modal>
     <header>
         <div class="container">
             <div class="header">
                 <div class="nav">
-                    <i class='bx bx-menu-alt-left' ></i>
+                    <i class='bx bx-menu-alt-left'></i>
                     <div class="logo">
                         <img src="./assets/images/logo.png" alt="Arenda kvartir 59 logo">
                     </div>
@@ -30,11 +51,11 @@
                             <p>mail@yandex.ru</p>
                         </div>
                         <div class="box">
-                            <i class='bx bx-phone' ></i>
+                            <i class='bx bx-phone'></i>
                             <p>+7 (919) 714-25-00</p>
                         </div>
                     </div>
-                    <button>Заказать звонок</button>
+                    <button id="zakazButton">Заказать звонок</button>
                 </div>
                 <div class="background"></div>
                 <div class="hero">
@@ -82,7 +103,7 @@
                     <h4>1 комната</h4>
                     <h2>Сутки: <span>1 500 ₽</span></h2>
                     <div class="card__bottom">
-                        <p><i class='bx bx-location-plus' ></i>Березники, ул. Юбилейная 108</p>
+                        <p><i class='bx bx-location-plus'></i>Березники, ул. Юбилейная 108</p>
                         <button>Подробнее</button>
                     </div>
                 </div>
@@ -92,7 +113,7 @@
                     <h4>3 комнаты</h4>
                     <h2>Сутки: <span>1 500 ₽</span></h2>
                     <div class="card__bottom">
-                        <p><i class='bx bx-location-plus' ></i>Березники, ул. Гагарина 89</p>
+                        <p><i class='bx bx-location-plus'></i>Березники, ул. Гагарина 89</p>
                         <button>Подробнее</button>
                     </div>
                 </div>
@@ -103,7 +124,7 @@
 
                     <h2>Сутки: <span>1 500 ₽</span></h2>
                     <div class="card__bottom">
-                        <p><i class='bx bx-location-plus' ></i>Березники, ул. Юбилейная 108</p>
+                        <p><i class='bx bx-location-plus'></i>Березники, ул. Юбилейная 108</p>
                         <button>Подробнее</button>
                     </div>
                 </div>
@@ -113,7 +134,7 @@
                     <h4>5 комнат</h4>
                     <h2>Сутки: <span>1 500 ₽</span></h2>
                     <div class="card__bottom">
-                        <p><i class='bx bx-location-plus' ></i>Березники, ул. Юбилейная 108</p>
+                        <p><i class='bx bx-location-plus'></i>Березники, ул. Юбилейная 108</p>
                         <button>Подробнее</button>
                     </div>
                 </div>
@@ -124,4 +145,6 @@
         </div>
     </div>
 </body>
+<script src="./js/index.js"></script>
+
 </html>
