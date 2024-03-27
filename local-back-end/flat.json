@@ -71,22 +71,13 @@
       "FlatButton": "Подробнее"
     },
     {
-      "FlatImage": "",
-      "FlatTitle": "",
-      "FlatDesc": "",
-      "FlatPrice": "",
+      "FlatImage": "https://dfstudio-d420.kxcdn.com/wordpress/wp-content/uploads/2019/06/digital_camera_photo-980x653.jpg",
+      "FlatTitle": "CAmera",
+      "FlatDesc": "camera",
+      "FlatPrice": "1000",
       "FlatLocationImage": "",
       "FlatLocation": "",
-      "id": 9
-    },
-    {
-      "FlatImage": "dwdwd",
-      "FlatTitle": "qafdqawdcac",
-      "FlatDesc": "scas",
-      "FlatPrice": "5965",
-      "FlatLocationImage": "ZSqas",
-      "FlatLocation": "scaqwd",
-      "id": 10
+      "id": 8
     }
   ]
 }
